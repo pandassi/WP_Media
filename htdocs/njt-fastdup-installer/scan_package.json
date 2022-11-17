@@ -1,0 +1,49 @@
+{
+    "id": 1,
+    "name": "package",
+    "hash": 1655420615,
+    "name_hash": "package_1655420615",
+    "status": 10,
+    "scan_file": null,
+    "site_url": "https:\/\/btchcoin.ca\/",
+    "template_id": "full_site",
+    "filter_exts": null,
+    "filter_files": null,
+    "filter_dirs": null,
+    "filter_tables": null,
+    "store_path": "\/srv\/htdocs\/wp-content\/njt-fastdup\/packages",
+    "store_url": "https:\/\/btchcoin.ca\/wp-content\/njt-fastdup\/packages\/",
+    "store_path_temp": "\/srv\/htdocs\/wp-content\/njt-fastdup\/tmp",
+    "Archive": {
+        "is_filter": 0,
+        "export_onlydb": false,
+        "filter_exts": [],
+        "filter_dirs": [
+            "\/srv\/htdocs\/wp-content\/njt-fastdup"
+        ],
+        "filter_files": [],
+        "read_checks": [],
+        "recursive_links": [],
+        "addon_sites": [],
+        "file": "package_1655420615_archive.zip",
+        "sql_path": null,
+        "zip_archive": null,
+        "zip_path": null,
+        "compress_dir": "\/wordpress\/core\/6.0",
+        "unreadable_log": [],
+        "dir_exclude_log": [],
+        "recursive_links_log": [],
+        "exts_exclude_log": [],
+        "add_file_error_log": [],
+        "file_exclude_log": []
+    },
+    "Database": {
+        "is_filter": false,
+        "filter_tables": [],
+        "file": "package_1655420615_database.sql",
+        "prefix": "wp_151358152_"
+    },
+    "created": "2022-06-16 23:03:35",
+    "njt_fastdup_archive_name": "wp-content\/njt-fastdup",
+    "njt_fastdup_dir_plugin": "wp-content\/plugins"
+}

@@ -1,0 +1,98 @@
+
+*{
+	padding: 0;margin: 0;
+	box-sizing: border-box;
+}
+
+header {
+	padding: 0px 120px 0px 104px;
+	height: 78px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header ul.menu{
+	list-style-type: none;
+	display: flex;gap: 32px;
+	align-items: center;
+}
+
+header .menu-item-has-children:hover ul {
+	display: flex;
+	flex-flow: column;
+}
+
+header .menu-item-has-children ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	list-style-type: none;
+    box-shadow: 0 0 3px #ccc;
+}
+
+header .menu-item-has-children ul a {
+	padding: 10px 20px;
+	border-bottom: 1px solid #cccccc30;
+	display: flex;
+	min-width: 200px;
+}
+
+header .menu-item-has-children ul li:last-child a {
+	border-bottom: none;
+}
+
+header .menu-item-has-children {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+header .menu-item-has-children::after {
+	content: '';
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("data:image/svg+xml,%3Csvg width='12' height='7' viewBox='0 0 12 7' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11.2812 1.8125L6.53125 6.28125C6.36458 6.42708 6.1875 6.5 6 6.5C5.8125 6.5 5.64583 6.42708 5.5 6.28125L0.75 1.8125C0.4375 1.45833 0.427083 1.10417 0.71875 0.75C1.05208 0.4375 1.40625 0.427083 1.78125 0.71875L6 4.71875L10.25 0.71875C10.6042 0.427083 10.9479 0.427083 11.2812 0.71875C11.5729 1.09375 11.5729 1.45833 11.2812 1.8125Z' fill='%23343A49'/%3E%3C/svg%3E%0A");
+	background-repeat: no-repeat;
+	height: 24px;
+    width: 12px;
+    background-position: center;
+    margin-left: 8px;
+	transition: .3s all linear;
+}
+
+header .menu-item-has-children:hover::after {
+	transform: rotate(180deg);
+}
+
+header ul.menu a {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.01em;
+	color: #343A49;
+	text-decoration: none;
+}
+
+header #menu-header-right-buttons li:last-child a {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 8px 16px;
+	gap: 10px; 
+	background: #40B1D0;
+	box-shadow: 0px 3px 0px #2C798D;
+	border-radius: 3px;
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 22px;
+	letter-spacing: 0.01em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
